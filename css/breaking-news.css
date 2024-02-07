@@ -1,6 +1,4 @@
 body {
-  background-repeat: no-repeat;
-  background-size: cover;
   background-color: rgb(2, 16, 29);
 }
 
@@ -11,7 +9,7 @@ h2 {
 .main-nav {
   background-color: rgb(2, 42, 75);
   color: rgb(103, 147, 214);
-  width: 2560px;
+  width: 2568px;
 }
 
 .main-nav ul {
@@ -28,3 +26,21 @@ h2 {
   text-decoration: none;
 }
 
+.breaking-news-1 {
+  margin-top: 600px;
+}
+
+#breaking-news-article-3 {
+  width: 2500px;
+}
+
+.breaking-news-1 {
+  width: 400px;
+  height: 600px;
+  background-color: rgb(101, 125, 156);
+  margin: 60px 0 0 300px;
+  padding: 10px 5px 5px 20px;
+  border: 2px solid darkorange;
+  border-radius: 8px 0 8px 0;
+  display: inline-block;
+}
