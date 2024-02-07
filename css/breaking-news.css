@@ -26,6 +26,10 @@ h2 {
   text-decoration: none;
 }
 
+a:visited {
+    color: red:
+}
+
 .breaking-news-1 {
   margin-top: 600px;
 }
@@ -56,6 +60,10 @@ h2 {
   margin: 150px 0 0 200px;
 }
 
+.hover-over-title:hover {
+  color: rgb(112, 16, 221);
+}
+
 #four-dragons-loose-article {
   color: white;
   font-size: large;
@@ -66,6 +74,7 @@ h2 {
   border-radius: 20px;
   margin: 50px 0 0 200px;
 }
+
 #gringotts-article {
   color: white;
   font-size: large;
