@@ -11,7 +11,7 @@ h2 {
 .main-nav {
   background-color: rgb(2, 42, 75);
   color: rgb(103, 147, 214);
-  width: 2560px;
+  width: 2568px;
 }
 
 .main-nav ul {
@@ -26,4 +26,11 @@ h2 {
 .main-nav a {
   color: white;
   text-decoration: none;
+}
+
+#quidditch-finale-game {
+  margin: 50px 0 0 1000px;
+  color: rgb(50, 94, 22);
+  width: 800px;
+  font-size: larger;
 }
