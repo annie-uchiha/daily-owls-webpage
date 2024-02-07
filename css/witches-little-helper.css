@@ -27,3 +27,30 @@ h2 {
   color: white;
   text-decoration: none;
 }
+
+#cauldron-video{
+  margin: 50px 0 0 900px;
+  color:rgb(138, 150, 161);
+}
+
+#de-gnome{
+  width: 1000px;
+  height: 200px;
+  background-color: rgb(92, 61, 231);
+  margin: 60px 0 0 300px;
+  padding: 10px 5px 5px 20px;
+  border: 2px solid rgb(131, 129, 247);
+  border-radius: 8px;
+  display: inline-block;
+}
+
+#love-potion{
+  width: 1000px;
+  height: 200px;
+  background-color: rgb(92, 61, 231);
+  margin: 60px 0 0 300px;
+  padding: 10px 5px 5px 20px;
+  border: 2px solid rgb(131, 129, 247);
+  border-radius: 8px;
+  display: inline-block;
+}
