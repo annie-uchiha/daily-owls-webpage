@@ -29,8 +29,30 @@ h2 {
 }
 
 #quidditch-finale-game {
-  margin: 50px 0 0 1000px;
+  margin: 50px 0 0 900px;
   color: rgb(50, 94, 22);
-  width: 800px;
+  width: 900px;
   font-size: larger;
+}
+
+.hover-over-teams{
+margin: 50px 0 0 600px;
+width: 1700px;
+font-size: 40px;
+color:rgb(153, 209, 120);
+}
+
+.hover-over-teams:hover{
+  color: red;
+}
+
+.quidditch-scores {
+  margin: 620px 0 80px 950px;
+  color: rgb(15, 78, 78);
+  width: 750px;
+  font-size: larger;
+}
+
+ul li:first-child li:nth-child(2n + 1) {
+  color: aquamarine;
 }
