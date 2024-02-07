@@ -30,6 +30,10 @@ a:visited {
     color: red:
 }
 
+#breaking-news-article-3 h2:hover{
+    color:red;
+}
+
 .breaking-news-1 {
   margin-top: 600px;
 }
