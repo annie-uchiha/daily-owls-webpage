@@ -2,10 +2,17 @@ body {
   background-repeat: no-repeat;
   background-size: auto;
   background-color: rgb(0, 0, 0);
+  color: rgb(110, 110, 238);
+  font-family: "Single Day", cursive;
+  font-size: larger;
 }
 
 h2 {
-  text-decoration: underline;
+  color: azure;
+}
+
+h2:hover {
+  color: rgb(119, 63, 211);
 }
 
 .main-nav {
@@ -33,17 +40,16 @@ h2 {
   color: rgb(138, 150, 161);
 }
 
-#potion-1 {
-  margin: 20px 0 100px 1600px;
-  width: 300px;
+.article-set-up {
+  width: 450px;
+  margin: 10px 0 50px 230px;
+  padding: 5px 15px;
+  border: 2px solid plum;
+  border-radius: 8px;
+  display: inline-block;
 }
 
-#potions-2 {
-  margin: 10px 0 0 1030px;
-  width: 300px;
-}
-
-#potions-3 {
-  margin: 20px 0 50px 200px;
-  width: 300px;
+#article-2 {
+  width: 600px;
+  padding-left: 55px;
 }
