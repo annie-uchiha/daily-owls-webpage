@@ -42,6 +42,7 @@ h2 {
 .niffler-hide__img1:hover {
   transform: rotateZ(150deg);
   transform-origin: 0;
+  transition: transform 500ms;
   border:1px solid #022a4b;
 }
 
@@ -62,8 +63,9 @@ h2 {
 }
 
 .bowtruckle-hide__img1:hover{
-  transform: rotateY(90deg);
+  transform: rotateX(90deg);
   transform-origin: 10px;
+  transition: transform 500ms;
 }
 
 .niffler-hide__img2 {
