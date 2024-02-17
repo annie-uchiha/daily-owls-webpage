@@ -30,18 +30,11 @@ h2 {
 
 .flex-container-1 {
   width: 400px;
-  padding-top: 10px;
+  padding: 10px;
   margin-left: 30px;
   color: rgb(209, 144, 59);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   text-align: center;
   background-color: rgba(66, 64, 202, 0.575);
-}
-
-.flex-container-1__img {
-  transform: translateX(50px);
 }
 
 .flex-container-1:hover {
@@ -50,18 +43,11 @@ h2 {
 
 .flex-container-2 {
   width: 400px;
-  padding-top: 10px;
-  margin-left: 440px;
+  padding: 10px;
+  margin-left: 600px;
   color: rgb(209, 144, 59);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   text-align: center;
   background-color: rgba(66, 64, 202, 0.575);
-}
-
-.flex-container-2__img {
-  transform: translateX(50px);
 }
 
 .flex-container-2:hover {
@@ -70,18 +56,12 @@ h2 {
 
 .flex-container-3 {
   width: 400px;
-  padding-top: 10px;
-  margin-left: 430px;
+  padding: 10px;
+  margin-left: 700px;
+  margin-bottom: 40px;
   color: rgb(209, 144, 59);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   text-align: center;
   background-color: rgba(66, 64, 202, 0.575);
-}
-
-.flex-container-3__img {
-  transform: translateX(50px);
 }
 
 .flex-container-3:hover {
