@@ -40,11 +40,11 @@ h2 {
   background-color: rgba(66, 64, 202, 0.575);
 }
 
-.flex-container-1__img{
+.flex-container-1__img {
   transform: translateX(50px);
 }
 
-.flex-container-1:hover{
+.flex-container-1:hover {
   transform: scale(1.2);
 }
 
@@ -60,11 +60,11 @@ h2 {
   background-color: rgba(66, 64, 202, 0.575);
 }
 
-.flex-container-2__img{
+.flex-container-2__img {
   transform: translateX(50px);
 }
 
-.flex-container-2:hover{
+.flex-container-2:hover {
   transform: scale(1.2);
 }
 
@@ -80,10 +80,10 @@ h2 {
   background-color: rgba(66, 64, 202, 0.575);
 }
 
-.flex-container-3__img{
+.flex-container-3__img {
   transform: translateX(50px);
 }
 
-.flex-container-3:hover{
+.flex-container-3:hover {
   transform: scale(1.2);
 }
