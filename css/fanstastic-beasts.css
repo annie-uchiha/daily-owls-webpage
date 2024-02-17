@@ -28,6 +28,17 @@ h2 {
   text-decoration: none;
 }
 
+h1 {
+  color: white;
+  text-decoration: none;
+  transform: translate(600px, 700px);
+  font-size: 42px;
+}
+
+h1:hover{
+  color: rgb(21, 45, 56);
+}
+
 .niffler-hide {
   position: relative;
   transform: translateY(1400px);
