@@ -1,30 +1,69 @@
 body {
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-color: rgb(107, 142, 172);
-  }
-  
-  h2 {
-    text-decoration: underline;
-  }
-  
-  .main-nav {
-    background-color: rgb(2, 42, 75);
-    color: rgb(103, 147, 214);
-    width: 2560px;
-  }
-  
-  .main-nav ul {
-    list-style: none;
-  }
-  
-  .main-nav li {
-    display: inline-block;
-    margin: 20px 50px;
-  }
-  
-  .main-nav a {
-    color: white;
-    text-decoration: none;
-  }
-  
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-color: #6b8eac;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+.main-nav {
+  background-color: #022a4b;
+  color: #6793d6;
+  width: 2560px;
+}
+
+.main-nav ul {
+  list-style: none;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin: 20px 50px;
+}
+
+.main-nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.niffler-hide {
+  position: relative;
+  transform: translateY(1400px);
+  margin: 0 0 20px 200px;
+}
+
+.niffler-hide__img1 {
+  position: absolute;
+  z-index: 2;
+}
+
+.niffler-hide__img1:hover {
+  transform: rotateY(80deg);
+}
+
+.nifler-hide__img2 {
+  position: absolute;
+  z-index: 1;
+}
+
+.bowtruckle-hide {
+  position: relative;
+  transform: translateY(550px);
+  margin: 0 0 20px 804px;
+}
+
+.bowtruckle-hide__img1{
+  position: absolute;
+  z-index: 2;
+}
+
+.bowtruckle-hide__img1:hover{
+  transform: rotateY(90deg);
+}
+
+.niffler-hide__img2 {
+  position: absolute;
+  z-index: 1;
+}
