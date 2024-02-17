@@ -72,3 +72,24 @@ h2 {
   position: absolute;
   z-index: 1;
 }
+
+.hippogriff-hide {
+  position: relative;
+  transform: translateY(-101px);
+}
+
+.hippogriff-hide__img1{
+  position: absolute;
+  z-index: 2;
+}
+
+.hippogriff-hide__img1:hover{
+  transform: rotateY(90deg);
+  transform-origin: 0;
+  transition: transform 1000ms;
+}
+
+.hippogriff-hide__img2{
+  position: absolute;
+  z-index: 1;
+}
