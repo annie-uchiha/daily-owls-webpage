@@ -35,6 +35,18 @@ h2:hover {
   text-decoration: none;
 }
 
+.open-chest__openimg {
+ transform: translateY(-600px);
+}
+
+
+.open-chest__openimg:hover {
+  transform: rotateY(40deg);
+  transform-origin: 0;
+  transition: transform 500ms;
+}
+
+
 #cauldron-video {
   margin: 50px 0 0 900px;
   color: rgb(138, 150, 161);
@@ -42,14 +54,21 @@ h2:hover {
 
 .article-set-up {
   width: 450px;
-  margin: 10px 0 50px 230px;
-  padding: 5px 15px;
+  margin: 10px 0 50px 20px;
+  padding: 5px;
   border: 2px solid plum;
   border-radius: 8px;
   display: inline-block;
+  text-align: center;
+}
+
+.article-set-up:hover {
+  scale: 1.2;
+
 }
 
 #article-2 {
   width: 600px;
   padding-left: 55px;
 }
+
