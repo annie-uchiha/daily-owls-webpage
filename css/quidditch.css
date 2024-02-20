@@ -35,18 +35,18 @@ h2 {
   font-size: larger;
 }
 
-.hover-over-teams{
-margin: 50px 0 0 600px;
-width: 1700px;
-font-size: 40px;
-color:rgb(153, 209, 120);
+.hover-over-teams {
+  margin: 50px 0 0 600px;
+  width: 1700px;
+  font-size: 40px;
+  color: rgb(153, 209, 120);
 }
 
-.hover-over-teams:hover{
+.hover-over-teams:hover {
   color: red;
 }
 
-.golden-snitch:hover{
+.golden-snitch:hover {
   transform: translateX(1000px);
   transition: transform 200ms;
 }
