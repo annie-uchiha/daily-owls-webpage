@@ -46,6 +46,11 @@ color:rgb(153, 209, 120);
   color: red;
 }
 
+.golden-snitch:hover{
+  transform: translateX(1000px);
+  transition: transform 200ms;
+}
+
 .quidditch-scores {
   margin: 620px 0 80px 950px;
   color: rgb(15, 78, 78);
