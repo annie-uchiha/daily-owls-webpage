@@ -37,8 +37,8 @@ h1 {
 
 .animate__flash {
   animate: flash;
-  animation-duration: 20s;
-  animation-delay: 5s;
+  animation-duration: 10s;
+  animation-delay: 2s;
 }
 
 h1:hover {
