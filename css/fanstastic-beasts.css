@@ -35,7 +35,13 @@ h1 {
   font-size: 42px;
 }
 
-h1:hover{
+.animate__flash {
+  animate: flash;
+  animation-duration: 20s;
+  animation-delay: 5s;
+}
+
+h1:hover {
   color: rgb(21, 45, 56);
 }
 
@@ -54,7 +60,7 @@ h1:hover{
   transform: rotateZ(150deg);
   transform-origin: 0;
   transition: transform 500ms;
-  border:1px solid #022a4b;
+  border: 1px solid #022a4b;
 }
 
 .nifler-hide__img2 {
@@ -68,12 +74,12 @@ h1:hover{
   margin: 0 0 20px 804px;
 }
 
-.bowtruckle-hide__img1{
+.bowtruckle-hide__img1 {
   position: absolute;
   z-index: 2;
 }
 
-.bowtruckle-hide__img1:hover{
+.bowtruckle-hide__img1:hover {
   transform: rotateX(90deg);
   transform-origin: 10px;
   transition: transform 500ms;
@@ -89,18 +95,18 @@ h1:hover{
   transform: translateY(-101px);
 }
 
-.hippogriff-hide__img1{
+.hippogriff-hide__img1 {
   position: absolute;
   z-index: 2;
 }
 
-.hippogriff-hide__img1:hover{
+.hippogriff-hide__img1:hover {
   transform: rotateY(90deg);
   transform-origin: 0;
   transition: transform 1000ms;
 }
 
-.hippogriff-hide__img2{
+.hippogriff-hide__img2 {
   position: absolute;
   z-index: 1;
 }
