@@ -59,5 +59,6 @@ h2 {
 .animationTwo {
   width: 200px;
   height: 200px;
-  animation: full-rotate 2s 3s 5 alternate-reverse;
+  animation: full-rotate 2s 3s 90 alternate-reverse;
 }
+
