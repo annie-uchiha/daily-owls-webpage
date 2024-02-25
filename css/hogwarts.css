@@ -37,7 +37,7 @@ h1 {
 p {
   font-size: 22px;
   text-align: center;
-  background-color: rgb(226, 127, 61);
+  background-color: rgb(224, 109, 14);
   padding-top: 50px;
   width: 220px;
   height: 180px;
@@ -62,9 +62,11 @@ img {
 }
 
 .card-text:hover {
-  transform-origin: 50;
-  visibility: hidden;
-  animation-duration: 20sec;
+  transform: rotateX(90deg);
+  transform-origin: 10px;
+  transition: transform 500ms;
+  background-color: rgb(185, 13, 13);
+  border-radius: 40px;
 }
 
 .flex-container-memory-cards {
