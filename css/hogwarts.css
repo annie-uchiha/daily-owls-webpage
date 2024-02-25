@@ -27,3 +27,71 @@ h2 {
   color: white;
   text-decoration: none;
 }
+
+h1 {
+  color: antiquewhite;
+  text-align: center;
+  margin-top: 300px;
+}
+
+p {
+  font-size: 22px;
+  text-align: center;
+  background-color: rgb(226, 127, 61);
+  padding-top: 50px;
+  width: 220px;
+  height: 220px;
+  border: 2px solid darkorange;
+  position: absolute;
+  z-index: 2;
+}
+
+img {
+  position: absolute;
+  z-index: 1;
+}
+
+.card-position {
+  position: relative;
+}
+
+.card-text {
+  position: absolute;
+  z-index: 2;
+}
+
+@keyframes disappear {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+#card-text:hover {
+  animation-name: disappear;
+  animation-duration: 10s; /
+}
+
+.card-text:hover {
+  transform-origin: 0;
+  visibility: hidden;
+  animation-duration: 20sec;
+}
+
+.first-card {
+  margin: 20px 0 20px 200px;
+}
+
+.first-card__text {
+  transform: translateY(-50px);
+}
+
+.second-card {
+  margin: 50px 0 50px 700px;
+}
+
+.second-card__text {
+  transform: translateY(-50px);
+}
+
+.third-card {
+  margin: 100px 0 100px 1000px;
+}
