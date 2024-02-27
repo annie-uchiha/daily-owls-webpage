@@ -59,12 +59,13 @@ img {
 .card-text {
   position: absolute;
   z-index: 2;
+  transition-duration: 10000ms;
 }
 
 .card-text:hover {
   transform: rotateX(90deg);
   transform-origin: 10px;
-  transition: transform 500ms;
+  transition: transform 400ms;
   background-color: rgb(185, 13, 13);
   border-radius: 40px;
 }
