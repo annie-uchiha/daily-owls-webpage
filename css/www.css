@@ -38,6 +38,12 @@ h2 {
   margin-top: 100px;
 }
 
+.animationTwo {
+  width: 200px;
+  height: 200px;
+  animation: full-rotate 3000ms infinite alternate-reverse;
+}
+
 @keyframes full-rotate {
   0% {
     transform: rotate(0deg);
@@ -56,9 +62,26 @@ h2 {
   }
 }
 
-.animationTwo {
+.animationOne {
   width: 200px;
   height: 200px;
-  animation: full-rotate 2s 3s 90 alternate-reverse;
+  animation: rotate 3000ms infinite alternate-reverse;
 }
 
+@keyframes rotate {
+  0% {
+    transform: rotate(180deg);
+  }
+  25% {
+    transform: rotate(135deg);
+  }
+  50% {
+    transform: rotate(90deg);
+  }
+  75% {
+    transform: rotate(45deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}

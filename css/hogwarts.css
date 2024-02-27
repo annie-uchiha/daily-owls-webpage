@@ -83,3 +83,27 @@ img {
 .third-row {
   transform: translateY(800px);
 }
+
+.ghost-horseman {
+  transform: translateX(-130px);
+  animation: transform ease-in-out 3000ms  1;
+  anim;
+}
+
+@keyframes transform {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(200px);
+  }
+  50% {
+    transform: translateX(400px);
+  }
+  75% {
+    transform: translateX(600px);
+  }
+  100% {
+    transform: translateX(800px);
+  }
+}

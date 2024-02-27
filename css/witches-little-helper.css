@@ -41,8 +41,8 @@ h2:hover {
 }
 
 .open-chest__openimg {
- position: absolute;
- z-index: 2;
+  position: absolute;
+  z-index: 2;
 }
 
 .open-chest__openimg:hover {
