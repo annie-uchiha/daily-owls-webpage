@@ -27,3 +27,59 @@ h2 {
   color: white;
   text-decoration: none;
 }
+
+h1 {
+  color: antiquewhite;
+  text-align: center;
+  margin-top: 100px;
+}
+
+p {
+  font-size: 22px;
+  text-align: center;
+  background-color: rgb(224, 109, 14);
+  padding-top: 50px;
+  width: 220px;
+  height: 180px;
+  border: 2px solid darkorange;
+  position: absolute;
+  z-index: 2;
+}
+
+img {
+  position: absolute;
+  padding-top: 30px;
+  z-index: 1;
+}
+
+.card-position {
+  position: relative;
+}
+
+.card-text {
+  position: absolute;
+  z-index: 2;
+  transition-duration: 10000ms;
+}
+
+.card-text:hover {
+  transform: rotateX(90deg);
+  transform-origin: 10px;
+  transition: transform 400ms;
+  background-color: rgb(185, 13, 13);
+  border-radius: 40px;
+}
+
+.flex-container-memory-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.second-row {
+  transform: translateY(400px);
+}
+
+.third-row {
+  transform: translateY(800px);
+}
