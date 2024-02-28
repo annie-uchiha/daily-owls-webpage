@@ -86,7 +86,7 @@ img {
 
 .ghost-horseman {
   transform: translateX(-130px);
-  animation: transform 3000ms ease-in 1;
+  animation: transform 3000ms ease-in-out 1;
 }
 
 @keyframes transform {
