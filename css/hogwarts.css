@@ -28,6 +28,20 @@ h2 {
   text-decoration: none;
 }
 
+.ghost-horseman {
+  transform: translateX(-130px);
+  animation: transform 3000ms ease-in-out 1;
+}
+
+@keyframes transform {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(2000px);
+  }
+}
+
 h1 {
   color: antiquewhite;
   text-align: center;
@@ -70,30 +84,8 @@ img {
   border-radius: 40px;
 }
 
-.flex-container-memory-cards {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-
-.second-row {
-  transform: translateY(400px);
-}
-
-.third-row {
-  transform: translateY(800px);
-}
-
-.ghost-horseman {
-  transform: translateX(-130px);
-  animation: transform 3000ms ease-in-out 1;
-}
-
-@keyframes transform {
-  from {
-    transform: translateX(0px);
-  }
-  to {
-    transform: translateX(2000px);
-  }
+.grid-container-memory-cards {
+  display: grid;
+  grid-template-columns: repeat (6, 1000px);
+  grid-template-rows: repeat(auto-fill, 800px);
 }
