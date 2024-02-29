@@ -86,6 +86,7 @@ img {
 
 .grid-container-memory-cards {
   display: grid;
-  grid-template-columns: repeat (6, 1000px);
-  grid-template-rows: repeat(auto-fill, 800px);
+  grid-template-columns: repeat(5, 200px);
+  grid-template-rows: repeat(4, 200px);
+  grid-gap: 100px;
 }
