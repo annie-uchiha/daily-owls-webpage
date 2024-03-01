@@ -85,8 +85,9 @@ img {
 }
 
 .grid-container-memory-cards {
+  margin-left: 100px;
   display: grid;
-  grid-template-columns: repeat(9, 200px);
+  grid-template-columns: repeat(8, 200px);
   grid-template-rows: repeat(3, 200px);
   grid-gap: 100px;
 }
