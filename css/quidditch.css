@@ -1,6 +1,6 @@
 body {
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: 100%;
   background-color: rgb(2, 16, 29);
 }
 
@@ -11,7 +11,7 @@ h2 {
 .main-nav {
   background-color: rgb(2, 42, 75);
   color: rgb(103, 147, 214);
-  width: 2568px;
+  width: 100%;
 }
 
 .main-nav ul {
@@ -52,7 +52,7 @@ h2 {
 }
 
 .quidditch-scores {
-  margin: 620px 0 80px 950px;
+  margin: 400px 0 80px 950px;
   color: rgb(15, 78, 78);
   width: 750px;
   font-size: larger;

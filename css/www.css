@@ -1,6 +1,6 @@
 body {
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   background-color: rgb(2, 16, 29);
 }
 
@@ -11,7 +11,7 @@ h2 {
 .main-nav {
   background-color: rgb(2, 42, 75);
   color: rgb(103, 147, 214);
-  width: 2560px;
+  width: 100%;
 }
 
 .main-nav ul {

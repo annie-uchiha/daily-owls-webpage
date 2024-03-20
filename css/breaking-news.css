@@ -9,7 +9,7 @@ h2 {
 .main-nav {
   background-color: rgb(2, 42, 75);
   color: rgb(103, 147, 214);
-  width: 2560px;
+  width: 100%;
 }
 
 .main-nav ul {

@@ -18,7 +18,7 @@ h2:hover {
 .main-nav {
   background-color: rgb(13, 9, 48);
   color: rgb(103, 147, 214);
-  width: 2560px;
+  width: 100%;
 }
 
 .main-nav ul {

@@ -1,6 +1,6 @@
 body {
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: 100%;
   background-color: rgb(107, 142, 172);
 }
 
@@ -11,7 +11,7 @@ h2 {
 .main-nav {
   background-color: rgb(2, 42, 75);
   color: rgb(103, 147, 214);
-  width: 2560px;
+  width: 100%;
 }
 
 .main-nav ul {
@@ -28,35 +28,4 @@ h2 {
   text-decoration: none;
 }
 
-.article-one {
-  position: relative;
-  width: 379px;
-  height: 216px;
-  margin-left: 340px;
-  transform: translateY(280px);
-  border: 1px solid #022a4b;
-}
 
-.article-one__img {
-  position: absolute;
-  z-index: 2;
-}
-
-.article-one__img:hover {
-  transform: rotateY(90deg);
-  transform-origin: 0;
-  transition: transform 500ms;
-}
-
-.article-one__text {
-  position: absolute;
-  z-index: 1;
-  width: 340px;
-  height: 150px;
-  color: white;
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(2, 42, 75);
-}

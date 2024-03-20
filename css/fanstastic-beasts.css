@@ -1,6 +1,6 @@
 body {
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: 100%;
   background-color: #6b8eac;
 }
 
@@ -11,7 +11,7 @@ h2 {
 .main-nav {
   background-color: #022a4b;
   color: #6793d6;
-  width: 2560px;
+  width: 100%;
 }
 
 .main-nav ul {
@@ -48,7 +48,7 @@ h1:hover {
 .niffler-hide {
   position: relative;
   transform: translateY(1400px);
-  margin: 0 0 20px 200px;
+  margin: 150px 0 50px 200px;
 }
 
 .niffler-hide__img1 {
@@ -70,8 +70,8 @@ h1:hover {
 
 .bowtruckle-hide {
   position: relative;
-  transform: translateY(550px);
-  margin: 0 0 20px 804px;
+  transform: translateY(506px);
+  margin: 0 0 20px 910px;
 }
 
 .bowtruckle-hide__img1 {
