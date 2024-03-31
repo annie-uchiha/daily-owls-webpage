@@ -11,7 +11,7 @@ h2 {
 .main-nav {
   background-color: #022a4b;
   color: #6793d6;
-  width: 2560px;
+  width: 100%;
 }
 
 .main-nav ul {
@@ -26,6 +26,7 @@ h2 {
 .main-nav a {
   color: white;
   text-decoration: none;
+  font-size: 1.5rem;
 }
 
 h1 {

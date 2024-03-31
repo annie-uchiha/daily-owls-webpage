@@ -1,6 +1,7 @@
 body {
+  background-image: url(../images/Owls_Birds_Snowy_owl_Flight_Front_543052_2560x1440.jpg);
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   background-color: rgb(107, 142, 172);
 }
 
@@ -8,32 +9,12 @@ h2 {
   text-decoration: underline;
 }
 
-.main-nav {
-  background-color: rgb(2, 42, 75);
-  color: rgb(103, 147, 214);
-  width: 2560px;
-}
-
-.main-nav ul {
-  list-style: none;
-}
-
-.main-nav li {
-  display: inline-block;
-  margin: 20px 50px;
-}
-
-.main-nav a {
-  color: white;
-  text-decoration: none;
-}
-
 .article-one {
   position: relative;
   width: 379px;
   height: 216px;
-  margin-left: 340px;
-  transform: translateY(280px);
+  margin-left: 406px;
+  transform: translateY(332px);
   border: 1px solid #022a4b;
 }
 

@@ -1,0 +1,20 @@
+.main-nav {
+  background-color: rgb(2, 42, 75);
+  color: rgb(103, 147, 214);
+  width: 100%;
+}
+
+.main-nav ul {
+  list-style: none;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin: 20px 50px;
+}
+
+.main-nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
