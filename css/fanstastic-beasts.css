@@ -50,13 +50,14 @@ h1:hover {
 
 .bowtruckle-hide {
   position: relative;
-  transform: translateY(550px);
-  margin: 0 0 20px 804px;
+  transform: translateY(572px);
+  margin: 0 0 20px 862px;
 }
 
 .bowtruckle-hide__img1 {
   position: absolute;
   z-index: 2;
+  width: 620px;
 }
 
 .bowtruckle-hide__img1:hover {
