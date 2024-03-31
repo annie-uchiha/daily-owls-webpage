@@ -90,3 +90,18 @@ h1:hover {
   position: absolute;
   z-index: 1;
 }
+
+@media (max-width: 2550px) {
+  .niffler-hide {
+    display: none;
+  }
+  .bowtruckle-hide {
+    display: none;
+  }
+  .hippogriff-hide {
+    display: none;
+  }
+  h1 {
+    display: none;
+  }
+}

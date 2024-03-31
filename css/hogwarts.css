@@ -77,3 +77,12 @@ img {
     transform: translateX(2000px);
   }
 }
+
+@media (max-width: 2550px) {
+  h1 {
+    display: none;
+  }
+  .flex-container-memory-cards {
+    display: none;
+  }
+}
