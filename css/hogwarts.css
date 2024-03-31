@@ -1,31 +1,11 @@
 body {
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   background-color: rgb(2, 16, 29);
 }
 
 h2 {
   text-decoration: underline;
-}
-
-.main-nav {
-  background-color: rgb(2, 42, 75);
-  color: rgb(103, 147, 214);
-  width: 2560px;
-}
-
-.main-nav ul {
-  list-style: none;
-}
-
-.main-nav li {
-  display: inline-block;
-  margin: 20px 50px;
-}
-
-.main-nav a {
-  color: white;
-  text-decoration: none;
 }
 
 h1 {
