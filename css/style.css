@@ -41,3 +41,9 @@ h2 {
   align-items: center;
   background-color: rgb(2, 42, 75);
 }
+
+@media (max-width: 2550px) {
+  .article-one {
+    display: none;
+  }
+}
