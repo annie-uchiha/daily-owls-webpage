@@ -1,32 +1,11 @@
 body {
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   background-color: #6b8eac;
 }
 
 h2 {
   text-decoration: underline;
-}
-
-.main-nav {
-  background-color: #022a4b;
-  color: #6793d6;
-  width: 100%;
-}
-
-.main-nav ul {
-  list-style: none;
-}
-
-.main-nav li {
-  display: inline-block;
-  margin: 20px 50px;
-}
-
-.main-nav a {
-  color: white;
-  text-decoration: none;
-  font-size: 1.5rem;
 }
 
 h1 {
@@ -48,8 +27,8 @@ h1:hover {
 
 .niffler-hide {
   position: relative;
-  transform: translateY(1400px);
-  margin: 0 0 20px 200px;
+  transform: translateY(1600px);
+  margin: 20px 0 100px 800px;
 }
 
 .niffler-hide__img1 {
