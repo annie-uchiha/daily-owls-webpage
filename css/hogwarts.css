@@ -86,3 +86,12 @@ img {
     display: none;
   }
 }
+
+.tom-riddle-diary {
+  transform: translateY(1600px);
+  margin-left: 500px;
+  background-image: url(../images/riddle.jpg);
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 1000px;
+}

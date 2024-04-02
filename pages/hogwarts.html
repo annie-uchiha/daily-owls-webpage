@@ -8,7 +8,7 @@
     <meta name="description" content="hogwarts" />
     <meta name="keywords" content="wizard, witch, news" />
     <title>Hogwarts</title>
-
+    <script async src="../js/main.js"></script>
     <link rel="stylesheet" href="../css/normalize.css" type="text/css" />
     <link rel="stylesheet" href="../css/navbar.css" type="text/css" />
     <link rel="stylesheet" href="../css/hogwarts.css" type="text/css" />
@@ -139,6 +139,13 @@
             </section>
         </div>
     </main>
+    <footer>
+        <div class="tom-riddle-diary">
+            <input type="text" class="riddle__input" id="nameInput" placeholder="Enter your name, please">
+            <button class="riddle__btn" onclick="greetUser()">Swish and flick</button>
+            <span id="greeting"></span>
+        </div>
+    </footer>
 </body>
 
 </html>
