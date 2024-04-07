@@ -7,7 +7,7 @@
 
 function greetUser() {
   const name = document.getElementById("nameInput").value;
-  const greeting = Hello, ${name}! My name is Tom Riddle; // The full greeting message
+  const greeting = `Hello, ${name}! My name is Tom Riddle`; // The full greeting message
 
   document.getElementById("greeting").textContent = ""; // Clear the previous content
 

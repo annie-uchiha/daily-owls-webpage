@@ -11,13 +11,17 @@ h2 {
 h1 {
   color: white;
   text-decoration: none;
+  -webkit-transform: translate(600px, 700px);
+  -ms-transform: translate(600px, 700px);
   transform: translate(600px, 700px);
   font-size: 42px;
 }
 
 .animate__flash {
   animate: flash;
+  -webkit-animation-duration: 10s;
   animation-duration: 10s;
+  -webkit-animation-delay: 2s;
   animation-delay: 2s;
 }
 
@@ -27,6 +31,8 @@ h1:hover {
 
 .niffler-hide {
   position: relative;
+  -webkit-transform: translateY(1400px);
+  -ms-transform: translateY(1400px);
   transform: translateY(1400px);
   margin: 0 0 20px 200px;
 }
@@ -37,9 +43,17 @@ h1:hover {
 }
 
 .niffler-hide__img1:hover {
+  -webkit-transform: rotateZ(150deg);
+  -ms-transform: rotate(150deg);
   transform: rotateZ(150deg);
+  -webkit-transform-origin: 0;
+  -ms-transform-origin: 0;
   transform-origin: 0;
+  -webkit-transition: -webkit-transform 500ms;
+  transition: -webkit-transform 500ms;
+  -o-transition: transform 500ms;
   transition: transform 500ms;
+  transition: transform 500ms, -webkit-transform 500ms;
   border: 1px solid #022a4b;
 }
 
@@ -50,6 +64,8 @@ h1:hover {
 
 .bowtruckle-hide {
   position: relative;
+  -webkit-transform: translateY(550px);
+  -ms-transform: translateY(550px);
   transform: translateY(550px);
   margin: 0 0 20px 803px;
 }
@@ -60,9 +76,16 @@ h1:hover {
 }
 
 .bowtruckle-hide__img1:hover {
+  -webkit-transform: rotateX(90deg);
   transform: rotateX(90deg);
+  -webkit-transform-origin: 10px;
+  -ms-transform-origin: 10px;
   transform-origin: 10px;
+  -webkit-transition: -webkit-transform 500ms;
+  transition: -webkit-transform 500ms;
+  -o-transition: transform 500ms;
   transition: transform 500ms;
+  transition: transform 500ms, -webkit-transform 500ms;
 }
 
 .niffler-hide__img2 {
@@ -72,6 +95,8 @@ h1:hover {
 
 .hippogriff-hide {
   position: relative;
+  -webkit-transform: translateY(-101px);
+  -ms-transform: translateY(-101px);
   transform: translateY(-101px);
 }
 
@@ -81,9 +106,16 @@ h1:hover {
 }
 
 .hippogriff-hide__img1:hover {
+  -webkit-transform: rotateY(90deg);
   transform: rotateY(90deg);
+  -webkit-transform-origin: 0;
+  -ms-transform-origin: 0;
   transform-origin: 0;
+  -webkit-transition: -webkit-transform 1000ms;
+  transition: -webkit-transform 1000ms;
+  -o-transition: transform 1000ms;
   transition: transform 1000ms;
+  transition: transform 1000ms, -webkit-transform 1000ms;
 }
 
 .hippogriff-hide__img2 {
