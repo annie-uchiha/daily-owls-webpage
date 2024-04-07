@@ -39,41 +39,77 @@ img {
 .card-text {
   position: absolute;
   z-index: 2;
+  -webkit-transition-duration: 10000ms;
+  -o-transition-duration: 10000ms;
   transition-duration: 10000ms;
 }
 
 .card-text:hover {
+  -webkit-transform: rotateX(90deg);
   transform: rotateX(90deg);
+  -webkit-transform-origin: 10px;
+  -ms-transform-origin: 10px;
   transform-origin: 10px;
+  -webkit-transition: -webkit-transform 400ms;
+  transition: -webkit-transform 400ms;
+  -o-transition: transform 400ms;
   transition: transform 400ms;
+  transition: transform 400ms, -webkit-transform 400ms;
   background-color: rgb(185, 13, 13);
   border-radius: 40px;
 }
 
 .flex-container-memory-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
 }
 
 .second-row {
+  -webkit-transform: translateY(400px);
+  -ms-transform: translateY(400px);
   transform: translateY(400px);
 }
 
 .third-row {
+  -webkit-transform: translateY(800px);
+  -ms-transform: translateY(800px);
   transform: translateY(800px);
 }
 
 .ghost-horseman {
+  -webkit-transform: translateX(-130px);
+  -ms-transform: translateX(-130px);
   transform: translateX(-130px);
+  -webkit-animation: transform 3000ms ease-in-out 1;
   animation: transform 3000ms ease-in-out 1;
+}
+
+@-webkit-keyframes transform {
+  from {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+  }
+  to {
+    -webkit-transform: translateX(2000px);
+    transform: translateX(2000px);
+  }
 }
 
 @keyframes transform {
   from {
+    -webkit-transform: translateX(0px);
     transform: translateX(0px);
   }
   to {
+    -webkit-transform: translateX(2000px);
     transform: translateX(2000px);
   }
 }
@@ -88,6 +124,8 @@ img {
 }
 
 .tom-riddle-diary {
+  -webkit-transform: translateY(1600px);
+  -ms-transform: translateY(1600px);
   transform: translateY(1600px);
   margin-left: 500px;
   background-image: url(../images/riddle.jpg);
@@ -99,9 +137,18 @@ img {
 .riddle__input {
   margin-top: 200px;
   margin-left: 10px;
+  line-height: 2rem;
 }
 
-#greeting {
-  color: rgb(243, 241, 241);
+.riddle__btn {
   font-size: 1.2rem;
+  line-height: 2rem;
+  background-color: rgb(236, 130, 42);
+  border: 2px solid red;
+  -webkit-box-shadow: 20px 5px 4px rgba(2, 18, 32, 0.356) inset;
+  box-shadow: 20px 5px 4px rgba(2, 18, 32, 0.356) inset;
+}
+
+.tom-riddle__span {
+  color: rgb(243, 241, 241);
 }
