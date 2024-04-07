@@ -124,21 +124,21 @@ img {
 }
 
 .tom-riddle-diary {
-  -webkit-transform: translateY(1600px);
-  -ms-transform: translateY(1600px);
-  transform: translateY(1600px);
-  margin-left: 500px;
-  background-image: url(../images/riddle.jpg);
-  background-repeat: no-repeat;
   width: 1000px;
-  height: 1400px;
+  height: 400px;
+  -webkit-transform: translateY(1400px);
+  -ms-transform: translateY(1400px);
+  transform: translateY(1400px);
+  margin-left: 520px;
+  background-image: url(../images/riddle.jpg);
+  background-size: 800px;
+  background-repeat: no-repeat;
 }
 
 .riddle__input {
-  margin-top: 200px;
-  margin-left: 10px;
   font-size: 1.2rem;
   line-height: 3rem;
+  transform: translateY(300px) translateX(300px);
 }
 
 .riddle__btn {
@@ -149,8 +149,13 @@ img {
   border: 2px solid red;
   -webkit-box-shadow: 20px 5px 4px rgba(2, 18, 32, 0.356) inset;
   box-shadow: 20px 5px 4px rgba(2, 18, 32, 0.356) inset;
+  transform: translateY(300px) translateX(300px);
 }
 
 .tom-riddle__span {
   color: rgb(243, 241, 241);
+}
+
+#greeting {
+  font-size: 1.7rem;
 }
