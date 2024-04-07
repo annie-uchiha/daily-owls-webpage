@@ -5,21 +5,21 @@
   ).textContent = `Hello, ${name}! My name is Tom Riddle`;
 }*/
 
+document.getElementById("greetButton").addEventListener("click", function () {
+  greetUser();
+});
+
 function greetUser() {
-  const name = document.getElementById("nameInput").value;
-  const greeting = `Hello, ${name}! My name is Tom Riddle`; // The full greeting message
+  var name = document.getElementById("nameInput").value;
+  var greetingSpan = document.getElementById("greeting");
+  var greetingText = "Hello " + name + "! My name is Tom Riddle.";
 
-  document.getElementById("greeting").textContent = ""; // Clear the previous content
+  greetingSpan.textContent = "";
 
-  let index = 0;
-  function displayLetter() {
-    if (index < greeting.length) {
-      const letter = greeting[index];
-      document.getElementById("greeting").textContent += letter; // Append the letter
-      index++;
-      setTimeout(displayLetter, 100); // Delay next letter display
-    }
+  for (let i = 0; i < greetingText.length; i++) {
+    // Use setTimeout to delay displaying each character
+    setTimeout(function () {
+      greetingSpan.textContent += greetingText[i];
+    }, i * 100);
   }
-
-  displayLetter(); // Start displaying letters
 }
