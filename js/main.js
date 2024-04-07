@@ -20,6 +20,6 @@ function greetUser() {
     // Use setTimeout to delay displaying each character
     setTimeout(function () {
       greetingSpan.textContent += greetingText[i];
-    }, i * 100);
+    }, i * 200);
   }
 }

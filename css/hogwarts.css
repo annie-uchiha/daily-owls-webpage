@@ -137,12 +137,13 @@ img {
 .riddle__input {
   margin-top: 200px;
   margin-left: 10px;
-  line-height: 2rem;
+  line-height: 3rem;
 }
 
 .riddle__btn {
   font-size: 1.2rem;
-  line-height: 2rem;
+  line-height: 2.5rem;
+  padding: 5px 15px;
   background-color: rgb(236, 130, 42);
   border: 2px solid red;
   -webkit-box-shadow: 20px 5px 4px rgba(2, 18, 32, 0.356) inset;
