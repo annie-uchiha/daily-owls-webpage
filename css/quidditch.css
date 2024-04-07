@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 body {
   background-repeat: no-repeat;
   background-size: cover;
@@ -27,8 +34,14 @@ h2 {
 }
 
 .golden-snitch:hover {
+  -webkit-transform: translateX(1000px);
+  -ms-transform: translateX(1000px);
   transform: translateX(1000px);
+  -webkit-transition: -webkit-transform 200ms;
+  transition: -webkit-transform 200ms;
+  -o-transition: transform 200ms;
   transition: transform 200ms;
+  transition: transform 200ms, -webkit-transform 200ms;
 }
 
 .quidditch-scores {
