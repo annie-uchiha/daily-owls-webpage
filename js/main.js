@@ -12,7 +12,7 @@ document.getElementById("greetButton").addEventListener("click", function () {
 function greetUser() {
   var name = document.getElementById("nameInput").value;
   var greetingSpan = document.getElementById("greeting");
-  var greetingText = "Hello " + name + "! My name is Tom Riddle.";
+  var greetingText = "Hello, " + name + "! My name is Tom Riddle.";
 
   greetingSpan.textContent = "";
 
