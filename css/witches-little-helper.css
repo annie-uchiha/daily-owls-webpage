@@ -38,6 +38,8 @@ h2:hover {
 
 .object-behind-chest {
   margin-left: 40px;
+  -webkit-transform: translateY(-400px);
+  -ms-transform: translateY(-400px);
   transform: translateY(-400px);
 }
 
@@ -47,15 +49,24 @@ h2:hover {
 }
 
 .open-chest__openimg:hover {
+  -webkit-transform: rotateY(90deg);
   transform: rotateY(90deg);
+  -webkit-transform-origin: 0;
+  -ms-transform-origin: 0;
   transform-origin: 0;
+  -webkit-transition: -webkit-transform 800ms;
+  transition: -webkit-transform 800ms;
+  -o-transition: transform 800ms;
   transition: transform 800ms;
+  transition: transform 800ms, -webkit-transform 800ms;
 }
 
 .img-behind {
   position: absolute;
   z-index: -1;
   padding-top: 60px;
+  -webkit-transform: translateX(80px);
+  -ms-transform: translateX(80px);
   transform: translateX(80px);
 }
 
@@ -84,5 +95,6 @@ h2:hover {
 }
 
 #article-2:hover {
+  -webkit-transform: rotateY(150deg);
   transform: rotateY(150deg);
 }
