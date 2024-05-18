@@ -14,7 +14,7 @@ h1 {
   margin-top: 100px;
 }
 
-p {
+/*p {
   font-size: 22px;
   text-align: center;
   background-color: rgb(224, 109, 14);
@@ -30,33 +30,59 @@ img {
   position: absolute;
   padding-top: 30px;
   z-index: 1;
-}
+}*/
 
-.card-position {
+.card {
   position: relative;
+  width: 330px;
+  height: 250px;
+  perspective: 1000px;
+  cursor: pointer;
 }
 
-.card-text {
+.card__text,
+.card__img {
+  width: 100%;
+  height: 100%;
   position: absolute;
-  z-index: 2;
-  -webkit-transition-duration: 10000ms;
-  -o-transition-duration: 10000ms;
-  transition-duration: 10000ms;
+  backface-visibility: hidden;
+  transition: transform 0.6s;
 }
 
-.card-text:hover {
-  -webkit-transform: rotateX(90deg);
-  transform: rotateX(90deg);
-  -webkit-transform-origin: 10px;
-  -ms-transform-origin: 10px;
-  transform-origin: 10px;
-  -webkit-transition: -webkit-transform 400ms;
-  transition: -webkit-transform 400ms;
-  -o-transition: transform 400ms;
-  transition: transform 400ms;
-  transition: transform 400ms, -webkit-transform 400ms;
-  background-color: rgb(185, 13, 13);
-  border-radius: 40px;
+.card__text {
+  z-index: 2;
+  font-size: 22px;
+  text-align: center;
+  background-color: rgb(224, 109, 14);
+  padding-top: 50px;
+  border: 2px solid darkorange;
+}
+
+.card__img {
+  z-index: 1;
+  padding-top: 30px;
+  transform: rotateY(180deg);
+}
+
+.card.flipped .card__text {
+  transform: rotateY(180deg);
+}
+
+.card.flipped .card__img {
+  transform: rotateY(0);
+}
+
+.card-cover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: gray;
+  backface-visibility: hidden;
+  transition: transform 0.6s;
+}
+
+.card.flipped .card-cover {
+  transform: rotateY(180deg);
 }
 
 .flex-container-memory-cards {
