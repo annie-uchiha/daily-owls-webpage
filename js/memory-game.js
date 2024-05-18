@@ -1,62 +1,49 @@
-/*document.addEventListener("DOMContentLoaded", function () {
-  let firstCard = null;
-  let secondCard = null;
-  let isClickable = true; // flag to prevent clicking while cards are flipping
+document.addEventListener("DOMContentLoaded", () => {
+  const cards = document.querySelectorAll(".card");
+  let hasFlippedCard = false;
+  let lockBoard = false;
+  let firstCard, secondCard;
 
-  const cards = document.querySelectorAll(".card-position");
+  function flipCard() {
+    if (lockBoard) return;
+    if (this === firstCard) return;
 
-  cards.forEach((card) => {
-    card.addEventListener("click", function () {
-      if (!isClickable) return; // prevent clicking while cards are flipping
-      if (!firstCard && !card.classList.contains("flipped")) {
-        firstCard = card;
-        openCard(card);
-      } else if (
-        card !== firstCard &&
-        !secondCard &&
-        !card.classList.contains("flipped")
-      ) {
-        secondCard = card;
-        openCard(card);
-        setTimeout(checkMatch, 1000);
-      }
-    });
-  });
+    this.classList.add("flipped");
 
-  function openCard(card) {
-    card.classList.add("flipped");
-  }
-
-  function closeCard(card) {
-    card.classList.remove("flipped");
-  }
-
-  function disableClick() {
-    isClickable = false;
-  }
-
-  function enableClick() {
-    isClickable = true;
-  }
-
-  function checkMatch() {
-    disableClick(); // prevent clicking while checking for match
-    const firstImgAlt = firstCard.querySelector("img").getAttribute("alt");
-    const secondImgAlt = secondCard.querySelector("img").getAttribute("alt");
-
-    if (firstImgAlt === secondImgAlt) {
-      firstCard = null;
-      secondCard = null;
-      enableClick(); // enable clicking after checking for match
-    } else {
-      setTimeout(() => {
-        closeCard(firstCard);
-        closeCard(secondCard);
-        firstCard = null;
-        secondCard = null;
-        enableClick(); // enable clicking after cards are closed
-      }, 3000);
+    if (!hasFlippedCard) {
+      hasFlippedCard = true;
+      firstCard = this;
+      return;
     }
+
+    secondCard = this;
+    checkForMatch();
   }
+
+  function checkForMatch() {
+    let isMatch = firstCard.dataset.id === secondCard.dataset.id;
+    isMatch ? disableCards() : unflipCards();
+  }
+
+  function disableCards() {
+    firstCard.removeEventListener("click", flipCard);
+    secondCard.removeEventListener("click", flipCard);
+    resetBoard();
+  }
+
+  function unflipCards() {
+    lockBoard = true;
+    setTimeout(() => {
+      firstCard.classList.remove("flipped");
+      secondCard.classList.remove("flipped");
+      resetBoard();
+    }, 1500);
+  }
+
+  function resetBoard() {
+    [hasFlippedCard, lockBoard] = [false, false];
+    [firstCard, secondCard] = [null, null];
+  }
+
+  cards.forEach((card) => card.addEventListener("click", flipCard));
 });
-*/

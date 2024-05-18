@@ -32,7 +32,7 @@
 
     <!-- Meta Tags Generated with https://metatags.io -->
     <title>Hogwarts</title>
-    <script async src="../js/main.js"></script>
+    <script async src="../js/memory-game.js"></script>
     <link rel="stylesheet" href="../css/normalize.css" type="text/css" />
     <link rel="stylesheet" href="../css/navbar.css" type="text/css" />
     <link rel="stylesheet" href="../css/hogwarts.css" type="text/css" />
@@ -59,111 +59,136 @@
         <h1>Memory Game</h1>
         <!--First row of cards-->
         <div class="flex-container-memory-cards">
-            <section class="first-card card-position">
-                <p class="first-card__text card-text">Hogwarts</p>
-                <img src="../gif/memory game 23 gifs/10.gif" alt="first-image" class="first-card__img" />
+            <section class="card card-position" data-id="1">
+                <div class="card-cover"></div>
+                <p class="card__text card-text">Hogwarts</p>
+                <img src="../gif/memory game 23 gifs/10.gif" alt="Hogwarts" class="card__img" />
             </section>
-            <section class="second-card card-position">
-                <p class="second-card__text card-text">Hogwarts</p>
-                <img src="../gif/memory game 23 gifs/12.gif" alt="second-image" class="second-card__img" />
+            <section class="card card-position" data-id="2">
+                <div class="card-cover"></div>
+                <p class="card__text card-text">Hogwarts</p>
+                <img src="../gif/memory game 23 gifs/12.gif" alt="Hogwarts" class="card__img" />
             </section>
-            <section class="third-card card-position">
-                <p class="thirds-card__text card-text">Hogwarts</p>
-                <img src="../gif/memory game 23 gifs/13.gif" alt="second-image" width="220px" class="third-card__img" />
+            <section class="card card-position" data-id="3">
+                <div class="card-cover"></div>
+                <p class="card__text card-text">Hogwarts</p>
+                <img src="../gif/memory game 23 gifs/13.gif" alt="Hogwarts" class="card__img" />
             </section>
-            <section class="forth-card card-position">
-                <p class="forth-card__text card-text">Hogwarts</p>
-                <img src="../gif/memory game 23 gifs/8.gif" alt="forth-image" width="220px" class="forth-card__img" />
+            <section class="card card-position" data-id="4">
+                <div class="card-cover"></div>
+                <p class="card__text card-text">Hogwarts</p>
+                <img src="../gif/memory game 23 gifs/8.gif" alt="Hogwarts" class="card__img" />
             </section>
-            <section class="fifth-card card-position">
-                <p class="fifth-card__text card-text">Hogwarts</p>
-                <img src="../gif/memory game 23 gifs/16.gif" alt="fifth-image" width="220px" class="fifth-card__img" />
+            <section class="card card-position" data-id="5">
+                <div class="card-cover"></div>
+                <p class="card__text card-text">Hogwarts</p>
+                <img src="../gif/memory game 23 gifs/16.gif" alt="Hogwarts" class="card__img" />
             </section>
-            <section class="sixth-card card-position">
-                <p class="sixth-card__text card-text">Hogwarts</p>
-                <img src="../gif/memory game 23 gifs/17.gif" alt="sixth-image" width="220px" class="sixth-card__img" />
+            <section class="card card-position" data-id="6">
+                <div class="card-cover"></div>
+                <p class="card__text card-text">Hogwarts</p>
+                <img src="../gif/memory game 23 gifs/17.gif" alt="Hogwarts" class="card__img" />
             </section>
-            <section class="seventh-card card-position">
-                <p class="seventh-card__text card-text">Hogwarts</p>
-                <img src="../gif/memory game 23 gifs/18.gif" alt="seventh-image" width="220px"
-                    class="seventh-card__img" />
+            <section class="card card-position" data-id="7">
+                <div class="card-cover"></div>
+                <p class="card__text card-text">Hogwarts</p>
+                <img src="../gif/memory game 23 gifs/18.gif" alt="Hogwarts" class="card__img" />
             </section>
-            <section class="23-card card-position">
-                <p class="23-card__text card-text">Hogwarts</p>
-                <img src="../gif/memory game 23 gifs/23.gif" alt="23-image" width="220px" class="23-card__img" />
+            <section class="card card-position" data-id="8">
+                <div class="card-cover"></div>
+                <p class="card__text card-text">Hogwarts</p>
+                <img src="../gif/memory game 23 gifs/23.gif" alt="Hogwarts" class="card__img" />
             </section>
         </div>
+
         <!--Second row of cards-->
         <div class="flex-container-memory-cards second-row">
-            <section class="8-card card-position">
-                <p class="8-card__text card-text">Hogwarts</p>
-                <img src="../gif/memory game 23 gifs/2.gif" alt="8-image" class="8-card__img" />
+            <section class="card card-position" data-id="11">
+                <div class="card-cover"></div>
+                <p class="card__text card-text">Hogwarts</p>
+                <img src="../gif/memory game 23 gifs/2.gif" alt="Hogwarts" class="card__img" />
             </section>
-            <section class="seventh-card card-position">
-                <p class="seventh-card__text card-text">Hogwarts</p>
-                <img src="../gif/memory game 23 gifs/17.gif" alt="seventh-image" class="seventh-card__img" />
+            <section class="card card-position" data-id="6">
+                <div class="card-cover"></div>
+                <p class="card__text card-text">Hogwarts</p>
+                <img src="../gif/memory game 23 gifs/17.gif" alt="Hogwarts" class="card__img" />
             </section>
-            <section class="first-card card-position">
-                <p class="first-card__text card-text">Hogwarts</p>
-                <img src="../gif/memory game 23 gifs/10.gif" alt="first-image" class="first-card__img" />
+            <section class="card card-position" data-id="1">
+                <div class="card-cover"></div>
+                <p class="card__text card-text">Hogwarts</p>
+                <img src="../gif/memory game 23 gifs/10.gif" alt="Hogwarts" class="card__img" />
             </section>
-            <section class="20-card card-position">
-                <p class="20-card__text card-text">Hogwarts</p>
-                <img src="../gif/memory game 23 gifs/20.gif" alt="20-image" width="220px" class="20-card__img" />
+            <section class="card card-position" data-id="9">
+                <div class="card-cover"></div>
+                <p class="card__text card-text">Hogwarts</p>
+                <img src="../gif/memory game 23 gifs/20.gif" alt="Hogwarts" class="card__img" />
             </section>
-            <section class="14-card card-position">
-                <p class="14-card__text card-text">Hogwarts</p>
-                <img src="../gif/memory game 23 gifs/14.gif" alt="14-image" width="220px" class="14-card__img" />
+            <section class="card card-position" data-id="10">
+                <div class="card-cover"></div>
+                <p class="card__text card-text">Hogwarts</p>
+                <img src="../gif/memory game 23 gifs/14.gif" alt="Hogwarts" class="card__img" />
             </section>
-            <section class="19-card card-position">
-                <p class="19-card__text card-text">Hogwarts</p>
-                <img src="../gif/memory game 23 gifs/19.gif" alt="19-image" width="220px" class="19-card__img" />
+            <section class="card card-position" data-id="12">
+                <div class="card-cover"></div>
+                <p class="card__text card-text">Hogwarts</p>
+                <img src="../gif/memory game 23 gifs/19.gif" alt="Hogwarts" class="card__img" />
             </section>
-            <section class="second-card card-position">
-                <p class="second-card__text card-text">Hogwarts</p>
-                <img src="../gif/memory game 23 gifs/12.gif" alt="second-image" class="second-card__img" />
+            <section class="card card-position" data-id="2">
+                <div class="card-cover"></div>
+                <p class="card__text card-text">Hogwarts</p>
+                <img src="../gif/memory game 23 gifs/12.gif" alt="Hogwarts" class="card__img" />
             </section>
-            <section class="20-card card-position">
-                <p class="20-card__text card-text">Hogwarts</p>
-                <img src="../gif/memory game 23 gifs/20.gif" alt="20-image" width="220px" class="20-card__img" />
+            <section class="card card-position" data-id="9">
+                <div class="card-cover"></div>
+                <p class="card__text card-text">Hogwarts</p>
+                <img src="../gif/memory game 23 gifs/20.gif" alt="Hogwarts" class="card__img" />
             </section>
         </div>
+
         <!--Third row of cards-->
         <div class="flex-container-memory-cards third-row">
-            <section class="seventh-card card-position">
-                <p class="seventh-card__text card-text">Hogwarts</p>
-                <img src="../gif/memory game 23 gifs/18.gif" alt="seventh-image" width="220px"
-                    class="seventh-card__img" />
+            <section class="card card-position" data-id="7">
+                <div class="card-cover"></div>
+                <p class="card__text card-text">Hogwarts</p>
+                <img src="../gif/memory game 23 gifs/18.gif" alt="Hogwarts" class="card__img" />
             </section>
-            <section class="8-card card-position">
-                <p class="8-card__text card-text">Hogwarts</p>
-                <img src="../gif/memory game 23 gifs/2.gif" alt="8-image" class="8-card__img" />
+            <section class="card card-position" data-id="11">
+                <div class="card-cover"></div>
+                <p class="card__text card-text">Hogwarts</p>
+                <img src="../gif/memory game 23 gifs/2.gif" alt="Hogwarts" class="card__img" />
             </section>
-            <section class="19-card card-position">
-                <p class="19-card__text card-text">Hogwarts</p>
-                <img src="../gif/memory game 23 gifs/19.gif" alt="19-image" width="220px" class="19-card__img" />
+            <section class="card card-position" data-id="12">
+                <div class="card-cover"></div>
+                <p class="card__text card-text">Hogwarts</p>
+                <img src="../gif/memory game 23 gifs/19.gif" alt="Hogwarts" class="card__img" />
             </section>
-            <section class="fifth-card card-position">
-                <p class="fifth-card__text card-text">Hogwarts</p>
-                <img src="../gif/memory game 23 gifs/16.gif" alt="fifth-image" width="220px" class="fifth-card__img" />
+            <section class="card card-position" data-id="5">
+                <div class="card-cover"></div>
+                <p class="card__text card-text">Hogwarts</p>
+                <img src="../gif/memory game 23 gifs/16.gif" alt="Hogwarts" class="card__img" />
             </section>
-            <section class="third-card card-position">
-                <p class="third-card__text card-text">Hogwarts</p>
-                <img src="../gif/memory game 23 gifs/13.gif" alt="second-image" width="220px" class="third-card__img" />
+            <section class="card card-position" data-id="3">
+                <div class="card-cover"></div>
+                <p class="card__text card-text">Hogwarts</p>
+                <img src="../gif/memory game 23 gifs/13.gif" alt="Hogwarts" class="card__img" />
             </section>
-            <section class="forth-card card-position">
-                <p class="forth-card__text card-text">Hogwarts</p>
-                <img src="../gif/memory game 23 gifs/8.gif" alt="forth-image" width="220px" class="forth-card__img" />
+            <section class="card card-position" data-id="4">
+                <div class="card-cover"></div>
+                <p class="card__text card-text">Hogwarts</p>
+                <img src="../gif/memory game 23 gifs/8.gif" alt="Hogwarts" class="card__img" />
             </section>
-            <section class="20-card card-position">
-                <p class="20-card__text card-text">Hogwarts</p>
-                <img src="../gif/memory game 23 gifs/14.gif" alt="20-image" width="220px" class="20-card__img" />
+            <section class="card card-position" data-id="10">
+                <div class="card-cover"></div>
+                <p class="card__text card-text">Hogwarts</p>
+                <img src="../gif/memory game 23 gifs/14.gif" alt="Hogwarts" class="card__img" />
             </section>
-            <section class="23-card card-position">
-                <p class="23-card__text card-text">Hogwarts</p>
-                <img src="../gif/memory game 23 gifs/23.gif" alt="23-image" width="220px" class="23-card__img" />
+            <section class="card card-position" data-id="8">
+                <div class="card-cover"></div>
+                <p class="card__text card-text">Hogwarts</p>
+                <img src="../gif/memory game 23 gifs/23.gif" alt="Hogwarts" class="card__img" />
             </section>
         </div>
+
     </main>
     <footer>
         <div class="tom-riddle-diary">
